@@ -60,7 +60,15 @@ O projeto AcolhaME não visa doação de valores e nem propõe encontro presenci
 
 -	Desenvolvedora Web
 -	Participante da turma On23- Todas em Tech da (reprogama) Frontend
--	
+
+ # Me encontre nesses lugares
+
+Ficou interessado no projeto ou tem alguma dúvida? Se conecte comigo nessas redes:
+
+- [E-mail](emiliajordana@gmail.com)
+- [LinkedIn](www.linkedin.com/in/emíliacerqueira)
+- [GitHub](https://github.com/ejscerqueira/AcolhaMe/edit/main/README.md)
+
 
 
 
