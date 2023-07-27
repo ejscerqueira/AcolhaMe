@@ -6,7 +6,8 @@
 
 # <img style = "float: right" src = "![ADOTEMEE](https://github.com/ejscerqueira/final-/assets/61998637/ce10dab3-cdaf-4cab-ba68-faa10d677891)"/>
 
-![Respeitoaoido ](https://github.com/ejscerqueira/final-/assets/61998637/88c68886-e8e2-4c46-b7c2-738c9fef1ffd)
+![aco](https://github.com/ejscerqueira/AcolhaMe/assets/61998637/802d01cc-13de-4ccd-b3eb-545a0f42ab9e)
+
 
 
 # ![image](https://github.com/ejscerqueira/final-/assets/61998637/69b77b2d-6079-426a-98aa-710ef7ca7ca9) Contexto: 
