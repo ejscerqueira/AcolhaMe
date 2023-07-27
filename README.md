@@ -6,7 +6,7 @@
 
 # ![image](https://github.com/ejscerqueira/final-/assets/61998637/69b77b2d-6079-426a-98aa-710ef7ca7ca9) Contexto: 
 <p align="justify">Pensando em como o capitalismo é excludente com os idosos que ao perderam a sua força de trabalho maioria das vezes são tratados como inservíveis e improdutivos.
-Sabendo também do problema causado pelo enfraquecimento dos laços familiares na nova sociedade, onde o desamparo familiar cresce ,mais rápido que a expectativa de vida.<p>
+Sabendo também do problema causado pelo enfraquecimento dos laços familiares, onde o desamparo familiar cresce ,mais rápido que a expectativa de vida.<p>
 <p>O pais carece de um projeto para reforçar os cuidados prolongados e a assistência a velhice.</p>
 <p>Na perspectiva de que todas as minorias se não forem eliminadas pelo sistema envelhecerão, decidir desenvolver uma página voltada a esse público ao qual considero “os esquecidos”.</p>
 <p>Tendo em vista que a solidão é um grande problema enfrentado pelos idoso, a página tem como objetivo conectar voluntários que desejam disponibilizar uma parte do seu tempo para interagir com idosos que se sentem sozinhos e estão em situação de abandono.</p>
