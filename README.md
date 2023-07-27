@@ -65,9 +65,12 @@ O projeto AcolhaME não visa doação de valores e nem propõe encontro presenci
 
 Ficou interessado no projeto ou tem alguma dúvida? Se conecte comigo nessas redes:
 
-- [E-mail] (emiliajordana@gmail.com)
-- [LinkedIn] (www.linkedin.com/in/emíliacerqueira)
-- [GitHub] (https://github.com/ejscerqueira/AcolhaMe/edit/main/README.md)
+- [E-mail]
+- (emiliajordana@gmail.com)
+- [LinkedIn]
+- (www.linkedin.com/in/emíliacerqueira)
+- [GitHub]
+- (https://github.com/ejscerqueira/AcolhaMe/edit/main/README.md)
 
 
 
