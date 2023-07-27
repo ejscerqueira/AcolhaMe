@@ -42,7 +42,7 @@ O projeto AcolhaME não visa doação de valores e nem propõe encontro presenci
 
 | Ferramentas|
 | --- |
-|#GIT | 
+|# GIT | 
 |GITHUB | 
 |CSS| 
 |HTML|
