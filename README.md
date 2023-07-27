@@ -35,14 +35,16 @@ O projeto AcolhaME não visa doação de valores e nem propõe encontro presenci
 - Formulários
 - Menu Hamburguer
 
-#Estrutura do projeto:
+# Estrutura do projeto:
+![Projeto](https://github.com/ejscerqueira/AcolhaMe/assets/61998637/65ae319c-1c56-404c-8458-982dbaccf523)
+
 
 
 # ![image](https://github.com/ejscerqueira/final-/assets/61998637/f761f362-ffac-4bfb-b654-90b76c2994ce) Tecnologias Utilizadas
 
 | Ferramentas|
 | --- |
-|# GIT | 
+|GIT | 
 |GITHUB | 
 |CSS| 
 |HTML|
