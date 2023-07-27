@@ -4,7 +4,7 @@
 
 
 
-# ![image](https://github.com/ejscerqueira/final-/assets/61998637/69b77b2d-6079-426a-98aa-710ef7ca7ca9) Contexto: 
+# ![image](https://github.com/ejscerqueira/AcolhaMe/assets/61998637/dd7e74a6-e86f-4383-b198-4c74d70b4e65) Contexto: 
 <p align="justify">Pensando em como o capitalismo é excludente com os idosos que ao perderam a sua força de trabalho maioria das vezes são tratados como inservíveis e improdutivos.
 Sabendo também do problema causado pelo enfraquecimento dos vínculos familiares, onde o desamparo familiar cresce ,mais rápido que a expectativa de vida.<p>
 <p>Entendo que o pais carece de um projeto para reforçar os cuidados prolongados e a assistência a velhice.</p>
