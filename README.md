@@ -1,4 +1,3 @@
-# AcolhaMe
 <h1 whidth="50">Tema do Projeto:</h1>
 
 ![aco](https://github.com/ejscerqueira/AcolhaMe/assets/61998637/802d01cc-13de-4ccd-b3eb-545a0f42ab9e)
