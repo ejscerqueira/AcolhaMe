@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="../assets/js/fale.js"></script>
+    <title>Fale Conosco</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        letter-spacing: 1px;
+        box-sizing: border-box;
+    }
+
+    header {
+        background-color: #a58631;
+        padding: 0%;
+        gap: 2rem;
+
+    }
+
+    .nav-bar {
+        display: flex;
+        justify-content: space-around;
+        padding: 1.5rem 1rem;
+
+    }
+
+    .logo {
+        float: right;
+        width: 25%;
+        text-align: center;
+        margin-right: 0%;
+        position: relative;
+    }
+
+
+    .nav-list {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-list ul {
+        display: inline-flex;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .nav-item {
+        margin: 0 15px;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        font-size: 1.15rem;
+        color: #fff;
+        font-weight: 400;
+    }
+
+    .login-button button {
+        padding: 10px 50px;
+        background: #a58631;
+        color: #b9a265;
+        margin: 10%;
+        display: inline;
+        text-decoration: solid;
+        border: 0cap #fff;
+
+    }
+
+    .login-button button a {
+        background: #a58631;
+        color: #fff;
+        font-size: small;
+        text-decoration: solid;
+
+    }
+
+
+
+    .mobile-menu {
+        display: none;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+
+        padding: 0;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+
+    }
+
+    .box {
+        top: 50%;
+        left: 100%;
+        display: flex;
+        justify-content: end;
+        background-color: rgb(0, 0, 0, 0, 0.8);
+        padding: 15px;
+        border-radius: 15px;
+        width: 100%;
+        color: rgb(147, 124, 34);
+        font-weight: bold;
+
+
+    }
+
+    fieldset {
+        margin-bottom: 20px;
+        margin-left: 20px;
+        color: rgb(7, 7, 7);
+        text-shadow: #a58631;
+        text-align: flex;
+        border: 10px solid rgb(147, 124, 34);
+
+
+    }
+
+    legend {
+        border: 1px solid rgb(147, 124, 34);
+        padding: 10px;
+        text-align: center;
+        background-image: (to right, rgb(165, 134, 49), rgb(197, 174, 110));
+        border-radius: 8px;
+        box-shadow: 5px 0px 9px #FFFF00;
+    }
+
+    .inputBox {
+        position: relative;
+
+    }
+
+    .inputUser {
+        background: none;
+        border: none;
+        border-bottom: 1px solid rgb(8, 8, 8);
+        outline: none;
+        color: rgb(14, 14, 14);
+        font-size: 15px;
+        width: 100%;
+        letter-spacing: 2px;
+
+    }
+
+    .labelInput {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        pointer-events: none;
+        transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+
+    }
+
+    .inputUser:focus~.labelInput,
+    .inputUser:valid~.labelInput {
+        top: -20px;
+        font-size: 12px;
+        color: blanchedalmond;
+
+    }
+
+    #data_nascimento {
+        border: none;
+        padding: 10px;
+        border: 10px;
+        outline: none;
+
+    }
+
+    #submit {
+        background-image: linear-gradient(to right, rgb(165, 134, 49), rgb(197, 174, 110));
+        width: 100%;
+        border: none;
+        padding: 15px;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    #submit:hover {
+        background-image: linear-gradient(to right, rgb(165, 134, 49), rgb(197, 174, 110));
+        ;
+    }
+
+    .footer {
+        width: 100%;
+        color: #a58631;
+
+
+    }
+
+    .footer-link {
+        text-decoration: none;
+    }
+
+    #footer_content {
+        background-color: #a58631;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 4rem 4.5rem;
+    }
+
+    #footer_contacts h1 {
+        margin-bottom: 0.75rem;
+    }
+
+    #footer__social_media {
+        display: flex;
+        gap: 2rem;
+        margin-top: 1.5rem;
+
+    }
+
+    #footer__social_media .footer-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 2.5rem;
+        width: 2.5rem;
+        border-radius: 50%;
+        color: white;
+        transition: all 0.4s;
+    }
+
+    #footer__social_media .footer-link i {
+        font-size: 1.25rem;
+    }
+
+    #footer_social_media .footer-link:hover {
+        opacity: 0.9;
+    }
+
+    #facebook {
+        background: #4267b3;
+    }
+
+    #linkedin {
+        background: #4267b3;
+    }
+
+    #instagram {
+        background: linear-gradient(#7f37c9, #ff2992, #ff9887);
+    }
+
+    .footer-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        list-style: none;
+        color: white;
+    }
+
+    .footer-link {
+        color: white;
+        transition: all 0.4s;
+    }
+
+    .footer-list .footer-link:hover {
+        color: white;
+    }
+
+    #footer__subscribe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer__subscribe p {
+        color: white;
+    }
+
+    .autora p {
+        background-color: #a58631;
+        color: white;
+    }
+    .open {
+            display: grid;
+        }
+</style>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="../assets/img/aco.png" alt="image" width="100">
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#noticias" class="nav-link">Notícias</a></li>
+                    <li class="nav-item"><a href="depo.html" class="nav-link">Depoimentos</a>
+                    </li>
+                    <li class="nav-item"><a href="index2.html" class="nav-link">Cadastre um Idoso</a>
+                    </li>
+                    <li class="nav-item"><a href="index3.html" class="nav-link">Seja um Voluntário</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="../assets/fale.html">Fale Conosco</a></button>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="../assets/img/Ic_menu_36px.svg"></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="index.html" target="_blank" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link">Notícias</a></li>
+                <li class="nav-item"><a href="depo.html" class="nav-link">Depoimentos</a></li>
+                <li class="nav-item"><a href="index2.html" class="nav-link">Cadastre um Idoso</a></li>
+                <li class="nav-item"><a href="index3.html" class="nav-link">Seja um Voluntário</a></li>
+            </ul>
+            <div class="login-button">
+                <button><a href="../assets/fale.html" target="_blank">Fale Conosco</a></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="box">
+        <img src="../assets/img/segurando-maos-de-idosos.jpg" width="1130" height="610">
+        <form action="">
+            <fieldset>
+                <legend><b>Fale Conosco</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required></input>
+                    <label for="nome" class="labelInput">Nome</label>
+
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="email" name="email" id="email" class="inputUser" required></input>
+                    <label for="nome" class="labelInput">Email</label>
+                </div>
+                <br></br>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required />
+                    <label for="nome" class="labelInput">Telefone</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <label>Mensagem</label>
+
+                    <textarea name="mensagem" rows="10" cols="50" placeholder="Digite uma mensagem"></textarea>
+                </div>
+                <input type="submit" name="submit" id="submit" onclick="funcao1()" value="Enviar" />
+
+
+
+
+            </fieldset>
+        </form>
+    </div>
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <img src="../assets/img/aco.png" alt="Logotipo" width="100">
+                <div id="footer__social_media">
+                    <a href="#" class="footer-link" id="linkedin">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+            <ul class="footer-list">
+                <li>
+                    <h2>Comece por aqui</h2>
+                </li>
+                <li>
+                    <a href="#sobre" target="_blank" class="footer-link">Sobre</a>
+                </li>
+                <li>
+                    <a href="depo.html" target="_blank" class="footer-link">Depoimentos</a>
+                </li>
+
+                <li>
+                    <a href="index2.html" target="_blank" class="footer-link">Cadastre um idoso</a>
+                </li>
+                <li>
+                    <a href="index3.html" target="_blank" class="footer-link">Seja um voluntário</a>
+                </li>
+            </ul>
+            <div id="footer__subscribe">
+                <p>Digite seu e-mail e receba todas as atualizações</p>
+
+                <div id="input_group">
+                    <input tipe="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+    </footer>
+    <div class="autora">
+        <p>Desenvolvido por Emilia Jordana Cerqueira</p>
+    </div>
+</body>
+
+</html>
