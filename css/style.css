@@ -370,77 +370,74 @@ h3 {
 
 }
 
-@media screen and (min-width:1170px) {
-    .section {
-        padding: 1.6rem 15 rem;
-
-    }
-
+/* Estilos gerais */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 1px;
+    box-sizing: border-box;
 }
 
-@media screen and (max-width: 768) {
-    #footer_content {
-        grid-template-columns: repeat(2, 1fr);
-        padding: 2rem;
+/* Estilos para telas pequenas */
+@media (max-width: 767px) {
+    header {
+        padding: 1rem; /* Ajuste o padding do cabeçalho */
+        gap: 1rem; /* Ajuste o gap do cabeçalho */
     }
-}
 
-@media screen and (max-width: 768) {
     .nav-bar {
-        padding: 1.5rem 4rem;
+        flex-direction: column; /* Coloca a barra de navegação em uma coluna */
+        align-items: center; /* Centraliza os itens na coluna */
+        padding: 1rem; /* Ajuste o padding da barra de navegação */
+    }
+
+    .logo {
+        float: none; /* Remove o float para que o logotipo seja centralizado */
+        width: 100%; /* Ocupa a largura total */
+        margin: 1rem 0; /* Ajuste as margens */
+    }
+
+    .nav-list ul {
+        flex-direction: column; /* Coloca a lista de navegação em uma coluna */
+        align-items: center; /* Centraliza os itens na coluna */
     }
 
     .nav-item {
-        display: none;
+        margin: 0.5rem 0; /* Ajuste as margens dos itens da lista de navegação */
     }
 
     .login-button {
-        display: none;
+        text-align: center; /* Centraliza o botão de login */
+        margin: 1rem 0; /* Ajuste a margem do botão de login */
     }
 
-    .mobile-menu-icon {
-        display: block;
+    .img-banner {
+        height: 50vh; /* Ajuste a altura do banner para telas pequenas */
     }
 
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
+    .section__titulo {
+        font-size: 3.5rem; /* Ajuste o tamanho do título da seção */
+        margin-left: 10%; /* Ajuste a margem do título da seção */
     }
 
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 1.2rem;
+    .cards {
+        grid-template-columns: 1fr; /* Coloca os cards em uma coluna */
+        max-width: 100%; /* Ocupa a largura total */
+        gap: 1rem; /* Ajuste o gap dos cards */
     }
 
-    .mobile-menu .nav-item {
-        display: block;
-        padding-top: 1.2rem;
+    .card {
+        max-width: 100%; /* Ocupa a largura total */
     }
 
-    .mobile-menu .login-button {
-        display: block;
-        padding: 1rem 2rem;
+    .sobre-c__img {
+        max-width: 100%; /* Ocupa a largura total */
+        margin: 2rem 0; /* Ajuste a margem da imagem de sobre */
     }
 
-    .mobile-menu .login-button button {
-        width: 100%;
+    .p {
+        margin-left: 5%; /* Ajuste a margem do parágrafo */
+        margin-right: 5%; /* Ajuste a margem do parágrafo */
     }
-
-    .open {
-        display: block;
-    }
-
-    .logo img {
-        width: 80px;
-        /* Reduz a largura do logo */
-    }
-
-    .nav-list {
-        display: none;
-        /* Oculta a lista de navegação no menu padrão */
-    }
-
 }
