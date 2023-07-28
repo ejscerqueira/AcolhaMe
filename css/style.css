@@ -427,8 +427,17 @@ background-color: #a58631;
     .open {
         display: block;
     }
-}
+.logo img {
+        width: 80px;
+        /* Reduz a largura do logo */
+    }
 
+    .nav-list {
+        display: none;
+        /* Oculta a lista de navegação no menu padrão */
+    }
+
+}
 
 
 
