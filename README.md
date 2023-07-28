@@ -11,7 +11,7 @@ Sabendo também do problema causado pelo enfraquecimento dos vínculos familiare
 <p>Na perspectiva de que todas as minorias se não forem eliminadas pelo sistema envelhecerão, decidir desenvolver uma página voltada a esse público ao qual considero “esquecidos”.</p>
 <p>Tendo em vista que a solidão é um grande problema enfrentado pelos idoso, a página tem como objetivo conectar voluntários que desejam disponibilizar uma parte do seu tempo para interagir com idosos que se sentem sozinhos e estão em situação de abandono.</p>
 O projeto AcolhaME não visa doação de valores e nem propõe encontro presenciais, para que a segurança e o bem estar dos idosos se mantenham preservados.
- <a href="https://avovo.com.br/eletronicos-e-a-tecnologia-ajudam-a-terceira-idade/" target="_blank" class="noticias-link">Conheço o projeto!</a></p>
+ <a href="acolhame.netlify.app" target="_blank" class="noticias-link">Conheço o projeto!</a></p>
 
 
  # O site possui ![image](https://github.com/ejscerqueira/final-/assets/61998637/4ff42989-f04f-4f81-960a-7d3d537f1556) Páginas: 
