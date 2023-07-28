@@ -42,7 +42,13 @@ O projeto AcolhaME não visa doação de valores e nem propõe encontro presenci
 
  # ![image](https://github.com/ejscerqueira/AcolhaMe/assets/61998637/96a75f0d-93ca-40ec-8cd3-224f1dade74f) Como rodar o projeto localmente:
  
+ Siga os passos e inclua as informações abaixo:
 
+| Passo | Comando/informação |
+
+| Faça o garfo | botão de forkar|
+
+| Faça o clone | git clone|
 
 # ![image](https://github.com/ejscerqueira/final-/assets/61998637/f761f362-ffac-4bfb-b654-90b76c2994ce) Tecnologias Utilizadas
 
