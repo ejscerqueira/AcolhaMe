@@ -36,7 +36,8 @@ O projeto AcolhaME não visa doação de valores e nem propõe encontro presenci
 - Menu Hamburguer
 
 # Estrutura do projeto:
-![Projeto](https://github.com/ejscerqueira/AcolhaMe/assets/61998637/65ae319c-1c56-404c-8458-982dbaccf523)
+![Acolhame](https://github.com/ejscerqueira/AcolhaMe/assets/61998637/36859415-806c-474d-803b-3c64bff837bd)
+
 
 
 
