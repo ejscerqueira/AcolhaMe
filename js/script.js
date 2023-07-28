@@ -12,13 +12,13 @@ if (menuMobile.classList.contains('open')){
 
 function funcao1()
 {
-alert("O projeto AcolhaME agradece o seu contato .Acolher um idoso é receber sozinhos!");
+alert("O projeto AcolhaME agradece o seu cadastro.Acolher um idoso é receber sozinhos!");
 
 }
 
 
 function funcao2()
 {
-alert("O projeto AcolhaME agradece o seu contato. Sinta-se acolhido, amado e respeitado!");
+alert("O projeto AcolhaME agradece o seu cadastro. Sinta-se acolhido, amado e respeitado!");
 
 }
