@@ -43,13 +43,13 @@ O projeto AcolhaME não visa doação de valores e nem propõe encontro presenci
 
 # ![image](https://github.com/ejscerqueira/final-/assets/61998637/f761f362-ffac-4bfb-b654-90b76c2994ce) Tecnologias Utilizadas
 
-| Ferramentas| Descrição |
-| --- | --- |
-|GIT | List all new or modified files |
-|GITHUB | Show file differences that haven't been staged |
-|CSS| List all new or modified files |
-|HTML| Show file differences that haven't been staged |
-|JAVASCRIPT | List all new or modified files |
+| Ferramentas| 
+| --- |
+|GIT | 
+|GITHUB | 
+|CSS|
+|HTML| 
+|JAVASCRIPT |
 
 
 # ![image](https://github.com/ejscerqueira/final-/assets/61998637/56a61fce-b6bb-4cb7-bd62-90d4240334ac) Futuras Implementações:
