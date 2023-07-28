@@ -40,6 +40,8 @@ O projeto AcolhaME não visa doação de valores e nem propõe encontro presenci
 ![Acolhame](https://github.com/ejscerqueira/AcolhaMe/assets/61998637/36859415-806c-474d-803b-3c64bff837bd)
 
 
+ # ![image](https://github.com/ejscerqueira/AcolhaMe/assets/61998637/96a75f0d-93ca-40ec-8cd3-224f1dade74f) Como rodar o projeto localmente:
+ 
 
 
 # ![image](https://github.com/ejscerqueira/final-/assets/61998637/f761f362-ffac-4bfb-b654-90b76c2994ce) Tecnologias Utilizadas
@@ -57,7 +59,6 @@ O projeto AcolhaME não visa doação de valores e nem propõe encontro presenci
 
 - Desenvolver designer(paletas de cores e escolha de fotos)
 - Estilização do site
-- 4
 - Soluções em javascript.
 
 
