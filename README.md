@@ -73,7 +73,7 @@ Ficou interessado no projeto ou tem alguma dúvida? Se conecte comigo nessas red
 - [LinkedIn]
   (www.linkedin.com/in/emíliacerqueira)
 - [GitHub]
-  (https://github.com/ejscerqueira/AcolhaMe/edit/main/README.md)
+  (https://github.com/ejscerqueira)
 
 
 
