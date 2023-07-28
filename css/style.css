@@ -305,6 +305,7 @@ p {
     font-weight: bold;
     margin: 5%;
     margin-top: 0%;
+    color: #1b1608;
 
 
 
@@ -317,10 +318,13 @@ p {
 }
 
 .card p {
-    color: #a58631;
+    color: #3d3316;
     font-size: 16px;
     max-width: 175%;
     font-weight: bold;
+    text-align: justify;
+    margin-right: 10%;
+
 
 
 }
@@ -338,7 +342,7 @@ p {
 }
 
 h3 {
-    color: #a58631;
+    color: #19150a;
 
     font-weight: bold;
 }
