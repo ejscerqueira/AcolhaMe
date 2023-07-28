@@ -56,9 +56,10 @@ O projeto AcolhaME não visa doação de valores e nem propõe encontro presenci
 # ![image](https://github.com/ejscerqueira/AcolhaMe/assets/61998637/fe602777-a633-474c-a3cb-c00eae834741) Maiores desafios:
 
 - Desenvolver designer(paletas de cores e escolha de fotos)
-- Estilização do site 
+- Estilização do site
+- 4
 - Soluções em javascript.
-
+###  `Como rodar o projeto localmente`  //
 
 # ![image](https://github.com/ejscerqueira/final-/assets/61998637/56a61fce-b6bb-4cb7-bd62-90d4240334ac) Futuras Implementações:
 -	Banco de Dados( Onde conectará idoso e voluntários por suas prferências)
