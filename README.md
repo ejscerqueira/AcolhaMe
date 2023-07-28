@@ -45,6 +45,7 @@ O projeto AcolhaME não visa doação de valores e nem propõe encontro presenci
  Siga os passos e inclua as informações abaixo:
 
 | Passo        | Comando/informação |
+|--------------|--------------------|
 
 | Faça o garfo | botão de forkar|
 
