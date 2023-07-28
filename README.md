@@ -48,7 +48,7 @@ O projeto AcolhaME não visa doação de valores e nem propõe encontro presenci
 |--------------|--------------------
 | Faça o garfo | botão de forkar|
 | Faça o clone | git clone|
-|Acesse a pasta	|
+|Acesse pasta	|
 |Rode o projeto|
 
 # ![image](https://github.com/ejscerqueira/final-/assets/61998637/f761f362-ffac-4bfb-b654-90b76c2994ce) Tecnologias Utilizadas
