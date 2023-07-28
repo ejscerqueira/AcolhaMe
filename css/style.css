@@ -364,12 +364,6 @@ h3 {
 
 }
 
-
-
-
-
-
-
 @media screen and (min-width:1170px) {
     .section {
         padding: 1.6rem 15 rem;
@@ -432,8 +426,12 @@ h3 {
     .open {
         display: block;
     }
+<<<<<<< HEAD
 
     .logo img {
+=======
+.logo img {
+>>>>>>> 44b8f1c106fee65c268e811f62c7b959cfb41ac5
         width: 80px;
         /* Reduz a largura do logo */
     }
@@ -443,4 +441,11 @@ h3 {
         /* Oculta a lista de navegação no menu padrão */
     }
 
+<<<<<<< HEAD
 }
+=======
+}
+
+
+
+>>>>>>> 44b8f1c106fee65c268e811f62c7b959cfb41ac5
