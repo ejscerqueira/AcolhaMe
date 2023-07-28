@@ -12,6 +12,7 @@ Sabendo também do problema causado pelo enfraquecimento dos vínculos familiare
 <p>Tendo em vista que a solidão é um grande problema enfrentado pelos idoso, a página tem como objetivo conectar voluntários que desejam disponibilizar uma parte do seu tempo para interagir com idosos que se sentem sozinhos e estão em situação de abandono.</p>
 O projeto AcolhaME não visa doação de valores e nem propõe encontro presenciais, para que a segurança e o bem estar dos idosos se mantenham preservados.
 
+
  <a href="https://acolhame.netlify.app/" target="_blank" class="noticias-link">Conheço o projeto!</a></p>
 
 
