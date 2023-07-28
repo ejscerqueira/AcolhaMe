@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script defer src="../assets/js/script.js"></script>
+<script defer src="./js/script.js"></script>
 
-    <title>Cadastre um Idoso</title>
+ 
+    <title>Acolha um idoso</title>
     <style>
         * {
             padding: 0;
@@ -83,7 +84,6 @@
 
         }
 
- 
 
         .mobile-menu {
             display: none;
@@ -91,14 +91,15 @@
 
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background-color: white;
+            background-color: #877543;
             padding: 0;
             margin: 0;
-            background-image: url(../assets/img/idosos-usando-tecnologia.png);
+            background-image: url(./img/acolha.png);
             background-repeat: no-repeat;
-            background-attachment: scroll;
-            background-size: 100%;
-
+            background-attachment: fixed;
+            background-size: cover;
+       
+          
 
         }
 
@@ -111,11 +112,10 @@
             padding: 15px;
             border-radius: 15px;
             width: 100%;
-            margin: 1%;
+       
             color: rgb(147, 124, 34);
             font-weight: bold;
             margin-top: 1%;
-
         }
 
         fieldset {
@@ -135,10 +135,12 @@
             text-align: center;
             background-image: (to right, rgb(165, 134, 49), rgb(197, 174, 110));
             border-radius: 8px;
+            box-shadow: 5px 0px 9px #FFFF00;
         }
 
         .inputBox {
             position: relative;
+
         }
 
         .inputUser {
@@ -150,6 +152,7 @@
             font-size: 15px;
             width: 100%;
             letter-spacing: 2px;
+
         }
 
         .labelInput {
@@ -158,6 +161,7 @@
             left: 0px;
             pointer-events: none;
             transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+
         }
 
         .inputUser:focus~.labelInput,
@@ -165,6 +169,7 @@
             top: -20px;
             font-size: 12px;
             color: blanchedalmond;
+
         }
 
         #data_nascimento {
@@ -189,15 +194,6 @@
         #submit:hover {
             background-image: linear-gradient(to right, rgb(165, 134, 49), rgb(197, 174, 110));
             ;
-        }
-
-        .logo {
-            float: right;
-            width: 25%;
-            text-align: center;
-            margin-left: 0%;
-            position: relative;
-
         }
 
         .footer {
@@ -290,35 +286,6 @@
             background-color: #a58631;
             color: white;
         }
-
-        #input_group {
-            display: flex;
-            align-items: center;
-            background-color: white;
-            border-radius: 4px;
-        }
-
-        #input_groud input {
-            all: unset;
-            padding: 1rem;
-            width: 100%;
-        }
-
-        #input_group button {
-            background-color: white;
-            border: none;
-            color: #a58631;
-            padding: 0px 1.25rem;
-            font-size: 1.125rem;
-            height: 100%;
-            border-radius: 0px 4px 4px 0px;
-            cursor: pointer;
-        }
-
-        #input_group button:hover {
-            opacity: 0.8;
-        }
-
         .open {
             display: grid;
         }
@@ -329,7 +296,7 @@
     <header>
         <nav class="nav-bar">
             <div class="logo">
-                <img src="../assets/img/aco.png" alt="image" width="100">
+                <img src="./img/aco.png" alt="image" width="100">
             </div>
             <div class="nav-list">
                 <ul>
@@ -344,10 +311,10 @@
                 </ul>
             </div>
             <div class="login-button">
-                <button><a href="../assets/fale.html">Fale Conosco</a></button>
+                <button><a href="./fale.html">Fale Conosco</a></button>
             </div>
             <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="../assets/img/Ic_menu_36px.svg"></button>
+                <button onclick="menuShow()"><img class="icon" src="./img/Ic_menu_36px.svg"></button>
             </div>
         </nav>
         <div class="mobile-menu">
@@ -359,27 +326,28 @@
                 <li class="nav-item"><a href="index3.html" class="nav-link">Seja um Voluntário</a></li>
             </ul>
             <div class="login-button">
-                <button><a href="../assets/fale.html" target="_blank">Fale Conosco</a></button>
+                <button><a href="./fale.html" target="_blank">Fale Conosco</a></button>
             </div>
         </div>
     </header>
     <div class="box">
         <form action="">
             <fieldset>
-                <legend><b>Cadastre um idoso</b></legend>
+                <legend><b>Acolha um idoso</b></legend>
                 <br>
                 <div class="inputBox">
-                    <input type="text" name="nome" id="nome" class="inputUser" required />
+                    <input type="text" name="nome" id="nome" class="inputUser" required></input>
                     <label for="nome" class="labelInput">Nome</label>
+           
                 </div>
                 <br>
                 <div class="inputBox">
-                    <input type="text" name="email" id="email" class="inputUser" required />
+                    <input type="text" name="email" id="email" class="inputUser" required></input>
                     <label for="nome" class="labelInput">Email</label>
                 </div>
                 <br></br>
                 <div class="inputBox">
-                    <input type="tel" name="telefone" id="telefone" class="inputUser" required />
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required /> 
                     <label for="nome" class="labelInput">Telefone</label>
                 </div>
                 <br>
@@ -409,29 +377,29 @@
                 </div>
                 <br>
                 <div class="inputBox">
-                    <input type="text" name="cidade" id="cidade" class="inputUser" required />
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required> </input>
                     <label for="cidade" class="labelInput">Cidade</label>
+                </input>
                 </div>
                 <br>
                 <div class="inputBox">
-                    <input type="text" name="Estado" id="estado" class="inputUser" required />
+                    <input type="text" name="Estado" id="estado" class="inputUser" required></input>
                     <label for="estado" class="labelInput">Estado</label>
                 </div>
                 <br>
                 <div class="inputBox">
-                    <input type="text" name="endereço" id="endereço" class="inputUser" required />
+                    <input type="text" name="endereço" id="endereço" class="inputUser" required></input>
                     <label for="endereço" class="labelInput">Endereço</label>
-                </div>
+            
                 <br>
-                <input type="submit" name="submit" id="submit" onclick="funcao2()" value="Enviar" />
-
+                <input type="submit" name="submit" id="submit" onclick="funcao1()" value="Enviar" />
             </fieldset>
         </form>
     </div>
     <footer>
         <div id="footer_content">
             <div id="footer_contacts">
-                <img src="../assets/img/aco.png" alt="Logotipo" width="100">
+                <img src="./img/aco.png" alt="Logotipo" width="100">
                 <div id="footer__social_media">
                     <a href="#" class="footer-link" id="linkedin">
                         <i class="fa-brands fa-linkedin"></i>
@@ -463,7 +431,7 @@
                 </li>
             </ul>
             <div id="footer__subscribe">
-
+                
                 <p>Digite seu e-mail e receba todas as atualizações</p>
 
                 <div id="input_group">
