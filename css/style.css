@@ -218,6 +218,7 @@ header {
     background-color: #a58631;
     background-image: url(../img/aco.png);
     background-repeat: no-repeat;
+   
 
 
 
@@ -264,7 +265,7 @@ header {
 .sobre-c {
     display: grid;
     flex-wrap: wrap;
-    align-items: center;
+    align-items:center;
 
 
 
@@ -291,8 +292,8 @@ p {
     color: black;
     font-size: larger;
     font-weight: bold;
-    margin-left: 25%;
-    text-align: center;
+    margin-left: 30%;
+    text-align:justify;
    
 }
 
